@@ -1,2 +1,2 @@
-# Barbersgop
+# Barbershop
 Вертска интернет-магазина(кооперативника) Barbershop
