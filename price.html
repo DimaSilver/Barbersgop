@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<div class="bg-page__wrapper">
+    <header class="catalog__header header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="catalog__header-left">
+                    <div class="header__menu-btn">
+                        <div class="header__menu-btn__line"></div>
+                        <div class="header__menu-btn__line"></div>
+                        <div class="header__menu-btn__line"></div>
+                    </div>
+                    <div class="header__list-inner">
+                        <div class="catalog__header-item"><a class="header__list-link" href="#"><img
+                                src="images/logo-header.svg" alt=""></a>
+                        </div>
+                        <ul class="catalog__header-list header__left-list menu__list">
+                            <li class="header__left-item menu__item"><a class="header__list-link"
+                                                                        href="#">ИНФОРМАЦИЯ</a>
+                            </li>
+                            <li class="header__left-item menu__item"><a class="header__list-link" href="#">НОВОСТИ</a>
+                            </li>
+                            <li class="header__left-item menu__item"><a class="header__list-link"
+                                                                        href="#">ПРАЙС-ЛИСТ</a>
+                            </li>
+                            <li class="header__left-item menu__item"><a class="header__list-link" href="#">МАГАЗИН</a>
+                            </li>
+                            <li class="header__left-item menu__item"><a class="header__list-link" href="#">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <a class="header__right-item" href="#login__form">
+                        ВХОД
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form id="login__form" class="mfp-hide white-popup-block login__form">
+        <div class="login__form-title">ЛИЧНЫЙ КАБИНЕТ</div>
+        <p class="login__form-text">ВВедите пожалуйста свой логин и пароль</p>
+        <div class="login__form-input__wrapper login__form-input__user">
+            <input class="login__form-input" type="text" placeholder="ЛОГИН">
+        </div>
+        <div class="login__form-input__wrapper login__form-input__password">
+            <input class="login__form-input" type="text" placeholder="ПАРОЛЬ">
+        </div>
+        <div class="login__form-underinputs">
+            <label class="login__form-label">
+                <input type="checkbox" class="login__form-checkbox">
+                ЗАПОМНИТЕ МЕНЯ
+            </label>
+            <a class="login__form-link" href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+        </div>
+        <button class="btn login__form-btn" type="submit">ВОЙТИ</button>
+    </form>
+    <section class="price-page">
+        <div class="container">
+            <h1 class="catalog__title">ПРАЙС-ЛИСТ</h1>
+            <div class="breadcrumbs">
+                <div class="breadcrumbs__inner">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__list-item">
+                            <a href="#">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="breadcrumbs__list-item">
+                            <span class="breadcrumbs__on">ПРАЙС-ЛИСТ</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h2 class="price-page__title">ИСТИННО МУЖСКАЯ КЛАССИКА</h2>
+            <div class="price-page__inner">
+                <div class="price-page__item">
+                    <h3 class="price-page__item-title">МЫ ИСПОЛЬЗУЕМ ТОЛЬКО
+                        ЛУЧШИЕ СРЕДСТВА:</h3>
+                    <ul class="price-page__item-list">
+                        <li class="price-page__item-list__field price-page__item-wrapper">Baxter of California</li>
+                        <li class="price-page__item-list__field">Mr Natty</li>
+                        <li class="price-page__item-list__field">Suavecito</li>
+                        <li class="price-page__item-list__field">Malin+Goetz</li>
+                    </ul>
+                </div>
+                <div class="price-page__item">
+                    <p class="price-page__item-title">ЦЕНЫ НА УСЛУГИ
+                        НАШИХ МАСТЕРОВ:</p>
+                    <div class="price-page__item-table price-page__item-wrapper">
+                        <div class="price-page__item-table__box">СТРИЖКА</div>
+                        <div class="price-page__item-table__box">1500 ₽</div>
+                        <div class="price-page__item-table__box">СТРИЖКА БОРОДЫ</div>
+                        <div class="price-page__item-table__box">500 ₽</div>
+                        <div class="price-page__item-table__box">НАКРУТКА УСОВ</div>
+                        <div class="price-page__item-table__box">350 ₽</div>
+                    </div>
+                </div>
+                <div class="price-page__item">
+                    <p class="price-page__item-title">НЕСКОЛЬКО СЛОВ О НАС:</p>
+                    <div class="price-page__item-textarea price-page__item-wrapper">
+                        <p class="price-page__item-textarea__box">Наша парикмахерская занимается исключительно мужскими
+                            стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.
+                            Мы не работаем на количество, мы делаем качество.</p>
+                        <p class="price-page__item-textarea__box">Наша мастерская расположена в центре города, поэтому
+                            сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете
+                            погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <ul class="footer__item-list">
+                        <li class="footer__item-field">БАРБЕРШОП «БОРОДИНСКИЙ»</li>
+                        <li class="footer__item-field">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</li>
+                        <li class="footer__item-field footer__item-field__link"><a href="#">КАК НАС НАЙТИ?</a></li>
+                        <li class="footer__item-field">ТЕЛЕФОН:<a href="tel:+74956660266">+7 (495) 666-02-66</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__item-title">
+                        ДАВАЙТЕ ДРУЖИТЬ!
+                    </h3>
+                    <ul class="footer__socials">
+                        <li class="footer__socials-item">
+                            <a class="footer__socials-link footer__socials-link__vk" href="#"></a>
+                        </li>
+                        <li class="footer__socials-item">
+                            <a class="footer__socials-link footer__socials-link__facebook" href="#"></a>
+                        </li>
+                        <li class="footer__socials-item">
+                            <a class="footer__socials-link footer__socials-link__instagram" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h4 class="footer__item-title">
+                        РАЗРАБОТАНО:
+                    </h4>
+                    <div class="footer__item-name__link">
+                        <a class="footer__item-name" href="#">html academy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

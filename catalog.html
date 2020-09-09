@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<div class="bg-page__wrapper">
+    <header class="catalog__header header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="catalog__header-left">
+                    <div class="header__menu-btn">
+                        <div class="header__menu-btn__line"></div>
+                        <div class="header__menu-btn__line"></div>
+                        <div class="header__menu-btn__line"></div>
+                    </div>
+                    <div class="header__list-inner">
+                        <div class="catalog__header-item"><a class="header__list-link" href="#"><img
+                                src="images/logo-header.svg" alt=""></a>
+                        </div>
+                        <ul class="catalog__header-list header__left-list menu__list">
+                            <li class="header__left-item menu__item"><a class="header__list-link"
+                                                                        href="#">ИНФОРМАЦИЯ</a>
+                            </li>
+                            <li class="header__left-item menu__item"><a class="header__list-link" href="#">НОВОСТИ</a>
+                            </li>
+                            <li class="header__left-item menu__item"><a class="header__list-link"
+                                                                        href="#">ПРАЙС-ЛИСТ</a>
+                            </li>
+                            <li class="header__left-item menu__item"><a class="header__list-link" href="#">МАГАЗИН</a>
+                            </li>
+                            <li class="header__left-item menu__item"><a class="header__list-link" href="#">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__right">
+                    <a class="header__right-item" href="#login__form">
+                        ВХОД
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form id="login__form" class="mfp-hide white-popup-block login__form">
+        <div class="login__form-title">ЛИЧНЫЙ КАБИНЕТ</div>
+        <p class="login__form-text">ВВедите пожалуйста свой логин и пароль</p>
+        <div class="login__form-input__wrapper login__form-input__user">
+            <input class="login__form-input" type="text" placeholder="ЛОГИН">
+        </div>
+        <div class="login__form-input__wrapper login__form-input__password">
+            <input class="login__form-input" type="text" placeholder="ПАРОЛЬ">
+        </div>
+        <div class="login__form-underinputs">
+            <label class="login__form-label">
+                <input type="checkbox" class="login__form-checkbox">
+                ЗАПОМНИТЕ МЕНЯ
+            </label>
+            <a class="login__form-link" href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+        </div>
+        <button class="btn login__form-btn" type="submit">ВОЙТИ</button>
+    </form>
+    <section class="catalog">
+        <div class="container">
+            <h1 class="catalog__title">СРЕДСТВА ДЛЯ УХОДА</h1>
+            <div class="breadcrumbs">
+                <div class="breadcrumbs__inner">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__list-item">
+                            <a href="#">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="breadcrumbs__list-item">
+                            <a href="#">МАГАЗИН</a>
+                        </li>
+                        <li class="breadcrumbs__list-item">
+                            <span class="breadcrumbs__on">СРЕДСТВА ДЛЯ УХОДА</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="catalog__inner">
+                <aside class="catalog__filter">
+                    <div class="catalog__filter-inner">
+                        <div class="catalog__filter-block">
+                            <h3 class="catalog__filter-block__title">ПРОИЗВОДИТЕЛИ:</h3>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="checkbox">
+                                    Baxter of California
+                                </label>
+                            </div>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="checkbox">
+                                    Mr Natty
+                                </label>
+                            </div>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="checkbox">
+                                    Mr Natty
+                                </label>
+                            </div>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="checkbox">
+                                    Malin+Goetz
+                                </label>
+                            </div>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="checkbox">
+                                    Murray’s
+                                </label>
+                            </div>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="checkbox">
+                                    American Crew
+                                </label>
+                            </div>
+                        </div>
+                        <div class="catalog__filter-block">
+                            <h3 class="catalog__filter-block__title">ГРУППЫ ТОВАРОВ:</h3>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="radio">
+                                    Бритвенные
+                                    принадлежности
+                                </label>
+                            </div>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="radio">
+                                    Средства для ухода
+                                </label>
+                            </div>
+                            <div class="catalog__filter-block__box">
+                                <label class="catalog__filter-box label__checkbox">
+                                    <input class="catalog__filter-checkbox" type="radio">
+                                    Аксессуары
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn catalog__filter-btn" type="submit">Показать</button>
+                </aside>
+                <div class="catalog__content-inner">
+                    <div class="catalog__content">
+                        <div class="catalog__content-item__wrapper">
+                            <div class="catalog__content-item">
+                                <a class="catalog__content-item__img" href="#">
+                                    <img src="images/content/catalog__content-1.jpg" alt="">
+                                </a>
+                                <div class="catalog__content-box">
+                                    <a class="catalog__content-box__title" href="#">Набор для путешествий
+                                        «Baxter of California»</a>
+                                    <div class="catalog__content-box__info">
+                                        <div class="catalog__content-box__price">2 900 ₽</div>
+                                        <button class="btn catalog__content-box__buy" type="submit">КУПИТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__content-item__wrapper">
+                            <div class="catalog__content-item">
+                                <a class="catalog__content-item__img" href="#">
+                                    <img src="images/content/catalog__content-1.jpg" alt="">
+                                </a>
+                                <div class="catalog__content-box">
+                                    <a class="catalog__content-box__title" href="#">Набор для путешествий
+                                        «Baxter of California»</a>
+                                    <div class="catalog__content-box__info">
+                                        <div class="catalog__content-box__price">2 900 ₽</div>
+                                        <button class="btn catalog__content-box__buy" type="submit">КУПИТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__content-item__wrapper">
+                            <div class="catalog__content-item">
+                                <a class="catalog__content-item__img" href="#">
+                                    <img src="images/content/catalog__content-1.jpg" alt="">
+                                </a>
+                                <div class="catalog__content-box">
+                                    <a class="catalog__content-box__title" href="#">Набор для путешествий
+                                        «Baxter of California»</a>
+                                    <div class="catalog__content-box__info">
+                                        <div class="catalog__content-box__price">2 900 ₽</div>
+                                        <button class="btn catalog__content-box__buy" type="submit">КУПИТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__content-item__wrapper">
+                            <div class="catalog__content-item">
+                                <a class="catalog__content-item__img" href="#">
+                                    <img src="images/content/catalog__content-1.jpg" alt="">
+                                </a>
+                                <div class="catalog__content-box">
+                                    <a class="catalog__content-box__title" href="#">Набор для путешествий
+                                        «Baxter of California»</a>
+                                    <div class="catalog__content-box__info">
+                                        <div class="catalog__content-box__price">2 900 ₽</div>
+                                        <button class="btn catalog__content-box__buy" type="submit">КУПИТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__content-item__wrapper">
+                            <div class="catalog__content-item">
+                                <a class="catalog__content-item__img" href="#">
+                                    <img src="images/content/catalog__content-1.jpg" alt="">
+                                </a>
+                                <div class="catalog__content-box">
+                                    <a class="catalog__content-box__title" href="#">Набор для путешествий
+                                        «Baxter of California»</a>
+                                    <div class="catalog__content-box__info">
+                                        <div class="catalog__content-box__price">2 900 ₽</div>
+                                        <button class="btn catalog__content-box__buy" type="submit">КУПИТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__content-item__wrapper">
+                            <div class="catalog__content-item">
+                                <a class="catalog__content-item__img" href="#">
+                                    <img src="images/content/catalog__content-1.jpg" alt="">
+                                </a>
+                                <div class="catalog__content-box">
+                                    <a class="catalog__content-box__title" href="#">Набор для путешествий
+                                        «Baxter of California»</a>
+                                    <div class="catalog__content-box__info">
+                                        <div class="catalog__content-box__price">2 900 ₽</div>
+                                        <button class="btn catalog__content-box__buy" type="submit">КУПИТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <ul class="pagination__list">
+                            <li class="pagination__list-item">
+                                <a class="pagination__list-link" href="#">1</a>
+                            </li>
+                            <li class="pagination__list-item">
+                                <a class="pagination__list-link" href="#">2</a>
+                            </li>
+                            <li class="pagination__list-item">
+                                <a class="pagination__list-link" href="#">3</a>
+                            </li>
+                            <li class="pagination__list-item">
+                                <a class="pagination__list-link" href="#">4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <ul class="footer__item-list">
+                        <li class="footer__item-field">БАРБЕРШОП «БОРОДИНСКИЙ»</li>
+                        <li class="footer__item-field">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</li>
+                        <li class="footer__item-field footer__item-field__link"><a href="#">КАК НАС НАЙТИ?</a></li>
+                        <li class="footer__item-field">ТЕЛЕФОН:<a href="tel:+74956660266">+7 (495) 666-02-66</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__item-title">
+                        ДАВАЙТЕ ДРУЖИТЬ!
+                    </h3>
+                    <ul class="footer__socials">
+                        <li class="footer__socials-item">
+                            <a class="footer__socials-link footer__socials-link__vk" href="#"></a>
+                        </li>
+                        <li class="footer__socials-item">
+                            <a class="footer__socials-link footer__socials-link__facebook" href="#"></a>
+                        </li>
+                        <li class="footer__socials-item">
+                            <a class="footer__socials-link footer__socials-link__instagram" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h4 class="footer__item-title">
+                        РАЗРАБОТАНО:
+                    </h4>
+                    <div class="footer__item-name__link">
+                        <a class="footer__item-name" href="#">html academy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
